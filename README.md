@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I'm a dedicated full-stack developer with a strong
 
 ## About Me
 
-I specialize in building robust, full-stack applications using technologies like **React.js** and **Next.js**. My journey in web development is fueled by a desire to push boundaries, which I actively nurture through participation in startup competitions and accelerator programs. These experiences allow me to continuously challenge myself and refine my skills.
+I focus on developing full-stack applications using technologies such as React.js and Next.js. My web development journey is driven by a commitment to continuous improvement, which I enhance through participating in startup competitions and accelerator programs. These opportunities help me stay challenged and further develop my skills.
 
 ### My Interests
 

@@ -1,4 +1,4 @@
-# 🌟 Full-Stack Next.js Developer | Tech & Sustainability Innovator 🌍
+# 🌟 Full-Stack Developer | Tech & Sustainability Innovator 🌍
 
 Welcome to my GitHub profile! I'm a dedicated full-stack developer with a strong focus on creating dynamic applications and a passion for technology and innovation.
 

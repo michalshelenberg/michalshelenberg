@@ -1,19 +1,11 @@
-# Full-Stack Developer | Tech & Sustainability Innovator
+# Next.js Full-Stack Developer | Tech & Sustainability Innovator
 
 Welcome to my GitHub profile! I'm a dedicated full-stack developer with a strong focus on creating dynamic applications and a passion for technology and innovation.
 
-## About Me
+⚡️ Technologies I work with: Next.js, Supabase, TypeScript, Tailwind CSS
 
-I focus on developing full-stack applications using technologies such as React.js and Next.js. My web development journey is driven by a commitment to continuous improvement, which I enhance through participating in startup competitions and accelerator programs. These opportunities help me stay challenged and further develop my skills.
+🌱 Currently learning: Go
 
-### My Interests
-
-Beyond coding, I am deeply engaged in the intersection of electronics and entrepreneurship, with a strong emphasis on ecological sustainability. I believe that technology can provide meaningful solutions to pressing global issues, and I strive to create impactful projects that contribute positively to our world.
-
-## Let's Connect!
+## 🌍 Let's Connect!
 
 If you're interested in collaborating, sharing ideas, or exploring innovative projects in technology and sustainability, feel free to reach out. Together, we can drive innovation and make a difference! 🚀
-
----
-
-Feel free to explore my repositories, showcase projects, and join me on this exciting journey!

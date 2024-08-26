@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I'm a dedicated full-stack developer with a strong
 
 ⚡️ Technologies I work with: Next.js, Supabase, TypeScript, Tailwind CSS
 
-🌱 Currently learning: Go
+🌱 Currently learning: OpenAI, Hugging Face
 
 ## 🌍 Let's Connect!
 

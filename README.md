@@ -1,4 +1,4 @@
-⚡ Tech stack: Next.js, Supabase
+⚡ Tech stack: TypeScript, Next.js, Supabase
 
 📌 Working on: OpenFaktura
 

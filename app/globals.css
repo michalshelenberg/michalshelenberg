@@ -40,10 +40,3 @@ a {
     color-scheme: dark;
   }
 }
-
-/* Always dark theme */
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-}

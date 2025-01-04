@@ -13,7 +13,9 @@ export default function Home() {
           justifyContent: "center",
         }}
       >
-        <Typography sx={{ typography: { xs: "h4", md: "h3" }, mb: 4 }}>
+        <Typography
+          sx={{ typography: { xs: "h5", sm: "h4", md: "h3" }, mb: 4 }}
+        >
           Web developer, <br />
           specializing in Next.js <br />
           applications

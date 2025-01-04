@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <Container maxWidth={"sm"}>
+    <Container maxWidth={"sm"} sx={{ px: { xs: "32px", md: "16px" } }}>
       <Box
         component={"header"}
         sx={{
@@ -13,14 +13,12 @@ export default function Home() {
           justifyContent: "center",
         }}
       >
-        <Typography
-          sx={{ typography: { xs: "h5", sm: "h4", md: "h3" }, mb: 4 }}
-        >
+        <Typography sx={{ typography: { xs: "h5", md: "h3" }, mb: 4 }}>
           Web developer, <br />
           specializing in Next.js <br />
           applications
         </Typography>
-        <Typography sx={{ mb: 4 }}>
+        <Typography sx={{ typography: { xs: "body2", md: "body1" }, mb: 4 }}>
           From an early age, my fascination with programming and computers
           ignited a lifelong passion. Constantly learning and developing, I
           strive to make an impact through innovative solutions.

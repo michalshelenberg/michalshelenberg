@@ -7,11 +7,15 @@ export default function CustomAppBar() {
       sx={{ backgroundColor: "transparent", boxShadow: "none" }}
     >
       <Container disableGutters>
-        <Toolbar>
+        <Toolbar sx={{ p: { xs: "32px", md: "16px" } }}>
           <Typography
             // variant="h6"
             component="div"
-            sx={{ flexGrow: 1, textTransform: "uppercase" }}
+            sx={{
+              flexGrow: 1,
+              textTransform: "uppercase",
+              // typography: { xs: "body2", md: "body1" },
+            }}
           >
             Michal Sheleneberg
           </Typography>

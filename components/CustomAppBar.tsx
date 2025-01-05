@@ -1,12 +1,20 @@
-import { AppBar, Container, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Button,
+  Container,
+  Toolbar,
+  Typography,
+} from "@mui/material";
+import Link from "next/link";
 
 export default function CustomAppBar() {
   return (
     <AppBar
       position="fixed"
-      sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+      sx={{ background: "transparent", boxShadow: "none" }}
     >
-      <Container disableGutters>
+      <Container maxWidth={"sm"} disableGutters>
         <Toolbar sx={{ p: { xs: "32px", md: "16px" } }}>
           <Typography
             // variant="h6"
@@ -19,11 +27,13 @@ export default function CustomAppBar() {
           >
             Michal Sheleneberg
           </Typography>
-          {/* <Box sx={{ display: { xs: "none", md: "block" } }}>
-            <Button color="inherit">Projects</Button>
-            <Button color="inherit">Blog</Button>
-            <Button color="inherit">Contact</Button>
-          </Box> */}
+          <Box sx={{ display: { xs: "none", md: "block" } }}>
+            <Link href={"/projects"}>
+              <Button color="inherit">Projects</Button>
+            </Link>
+            {/* <Button color="inherit">Blog</Button> */}
+            {/* <Button color="inherit">Contact</Button> */}
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>

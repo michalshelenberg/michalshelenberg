@@ -1,12 +1,4 @@
-import {
-  AppBar,
-  Box,
-  Button,
-  Container,
-  Toolbar,
-  Typography,
-} from "@mui/material";
-import Link from "next/link";
+import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 
 export default function CustomAppBar() {
   return (

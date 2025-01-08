@@ -27,13 +27,12 @@ export default function CustomAppBar() {
           >
             Michal Sheleneberg
           </Typography>
-          <Box sx={{ display: { xs: "none", md: "block" } }}>
+          {/* <Box sx={{ display: { xs: "none", md: "block" } }}>
+            <Button color="inherit">Blog</Button>
             <Link href={"/projects"}>
               <Button color="inherit">Projects</Button>
             </Link>
-            {/* <Button color="inherit">Blog</Button> */}
-            {/* <Button color="inherit">Contact</Button> */}
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

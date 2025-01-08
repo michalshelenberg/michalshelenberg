@@ -14,9 +14,11 @@ export default function Home() {
         }}
       >
         <Typography sx={{ typography: { xs: "h5", md: "h3" }, mb: 4 }}>
-          Web developer, <br />
-          specializing in Next.js <br />
-          applications
+          Fullstack Developer
+          <br />
+          React, Redux, TypeScript
+          <br />
+          Next.js, .NET
         </Typography>
         <Typography sx={{ typography: { xs: "body2", md: "body1" }, mb: 4 }}>
           From an early age, my fascination with programming and computers
@@ -28,13 +30,10 @@ export default function Home() {
             href={"https://www.linkedin.com/in/michalshelenberg/"}
             target="_blank"
           >
-            <Button variant="contained">Hire me</Button>
+            <Button variant="contained">LinkedIn</Button>
           </Link>
-          <Link
-            href={"https://www.linkedin.com/in/michalshelenberg/"}
-            target="_blank"
-          >
-            <Button variant="outlined">LinkedIn</Button>
+          <Link href={"https://github.com/michalshelenberg"} target="_blank">
+            <Button variant="outlined">GitHub</Button>
           </Link>
         </Stack>
       </Box>

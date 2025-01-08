@@ -18,7 +18,7 @@ export default function Home() {
           <br />
           React, Redux, TypeScript
           <br />
-          Next.js, .NET
+          Next.js, ASP.NET
         </Typography>
         <Typography sx={{ typography: { xs: "body2", md: "body1" }, mb: 4 }}>
           From an early age, my fascination with programming and computers

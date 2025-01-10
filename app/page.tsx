@@ -16,9 +16,9 @@ export default function Home() {
         <Typography sx={{ typography: { xs: "h5", md: "h3" }, mb: 4 }}>
           Fullstack Developer
           <br />
-          React, Redux, TypeScript
+          TypeScript, React, Redux
           <br />
-          Next.js, ASP.NET
+          Next.js, ASP.NET Core
         </Typography>
         <Typography sx={{ typography: { xs: "body2", md: "body1" }, mb: 4 }}>
           From an early age, my fascination with programming and computers

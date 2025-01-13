@@ -1,4 +1,22 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Chip,
+  Container,
+  Grid2,
+  Stack,
+  Typography,
+} from "@mui/material";
+import {
+  Azure,
+  CSharp,
+  Figma,
+  MaterialUI,
+  NextJs,
+  React,
+  Redux,
+  TypeScript,
+} from "developer-icons";
 import Link from "next/link";
 
 export default function Home() {
@@ -37,21 +55,87 @@ export default function Home() {
           </Link>
         </Stack>
       </Box>
-      {/* <Box
+
+      {/* Technologies */}
+      <Box
         component={"section"}
         sx={{
           // height: "100vh",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          // p: 3,
         }}
       >
-        <Typography variant="h6" sx={{ textTransform: "uppercase", mb: 4 }}>
-          Favourite technologies
-        </Typography>
-        <Stack></Stack>
-      </Box> */}
+        <Stack gap={12}>
+          <Box>
+            <Typography variant="h6" sx={{ textTransform: "uppercase", mb: 4 }}>
+              Technologies
+            </Typography>
+            <Grid2 container spacing={2}>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <TypeScript size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <React size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <NextJs size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <Redux size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <MaterialUI size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <CSharp size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <Azure size={44} />
+              </Grid2>
+              <Grid2 size={{ xs: 3, md: 1.5 }}>
+                <Figma size={44} />
+              </Grid2>
+            </Grid2>
+          </Box>
+
+          <Box>
+            <Typography variant="h6" sx={{ textTransform: "uppercase", mb: 4 }}>
+              Skills
+            </Typography>
+            <Stack
+              direction={"row"}
+              gap={2}
+              useFlexGap
+              sx={{ flexWrap: "wrap" }}
+            >
+              <Chip variant="outlined" label="TypeScript" />
+              <Chip variant="outlined" label="React" />
+              <Chip variant="outlined" label="Next.js" />
+              <Chip variant="outlined" label="Redux" />
+              <Chip variant="outlined" label="Redux Toolkit" />
+              <Chip variant="outlined" label="Material UI" />
+              <Chip variant="outlined" label="react-hook-form" />
+              <Chip variant="outlined" label="Zod" />
+              <Chip variant="outlined" label="C#" />
+              <Chip variant="outlined" label="ASP.NET Core" />
+              <Chip variant="outlined" label="Microsoft Azure" />
+              <Chip variant="outlined" label="Figma" />
+            </Stack>
+          </Box>
+        </Stack>
+      </Box>
+
+      {/* Featured projects */}
+      <Box
+        component={"header"}
+        sx={{
+          height: "100svh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      ></Box>
     </Container>
   );
 }

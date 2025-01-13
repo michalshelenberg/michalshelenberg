@@ -56,22 +56,24 @@ export default function Home() {
         </Stack>
       </Box>
 
-      {/* Technologies */}
+      {/* Technologies & Skills */}
       <Box
         component={"section"}
         sx={{
-          // height: "100vh",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
         }}
       >
-        <Stack gap={12}>
+        <Stack gap={8}>
           <Box>
-            <Typography variant="h6" sx={{ textTransform: "uppercase", mb: 4 }}>
+            <Typography
+              variant="body1"
+              sx={{ textTransform: "uppercase", mb: 4 }}
+            >
               Technologies
             </Typography>
-            <Grid2 container spacing={2}>
+            <Grid2 container spacing={1}>
               <Grid2 size={{ xs: 3, md: 1.5 }}>
                 <TypeScript size={44} />
               </Grid2>
@@ -100,12 +102,15 @@ export default function Home() {
           </Box>
 
           <Box>
-            <Typography variant="h6" sx={{ textTransform: "uppercase", mb: 4 }}>
+            <Typography
+              variant="body1"
+              sx={{ textTransform: "uppercase", mb: 4 }}
+            >
               Skills
             </Typography>
             <Stack
               direction={"row"}
-              gap={2}
+              gap={1}
               useFlexGap
               sx={{ flexWrap: "wrap" }}
             >
@@ -117,6 +122,7 @@ export default function Home() {
               <Chip variant="outlined" label="Material UI" />
               <Chip variant="outlined" label="react-hook-form" />
               <Chip variant="outlined" label="Zod" />
+              <Chip variant="outlined" label="Cypress" />
               <Chip variant="outlined" label="C#" />
               <Chip variant="outlined" label="ASP.NET Core" />
               <Chip variant="outlined" label="Microsoft Azure" />

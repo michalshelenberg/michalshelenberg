@@ -2,7 +2,10 @@ import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 
 export default function CustomAppBar() {
   return (
-    <AppBar position="static" sx={{ background: "#121212", boxShadow: "none" }}>
+    <AppBar
+      position="absolute"
+      sx={{ background: "#121212", boxShadow: "none" }}
+    >
       <Container maxWidth={"sm"} disableGutters>
         <Toolbar sx={{ p: { xs: "32px", md: "16px" } }}>
           <Typography

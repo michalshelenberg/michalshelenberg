@@ -1,3 +1,6 @@
-![](https://github-readme-stats.vercel.app/api?username=michalshelenberg&show_icons=true&theme=dark)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=michalshelenberg&hide=javascript,css,scss,html&theme=dark)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=michalshelenberg&theme=dark" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=michalshelenberg&layout=compact&langs_count=8&card_width=320&theme=dark" />
+</a>
